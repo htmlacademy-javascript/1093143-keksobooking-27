@@ -63,7 +63,7 @@ function getRandomIntNumber(minNumber, maxNumber) {
   // Ближайшие целые числа отсутствуют в диапазоне
   // return не пишу, по умолчанию функция вернет undefined
 }
-console.log(getRandomIntNumber(0.99, 1.01));
+getRandomIntNumber(0.99, 1.01);
 //===========================================================================================
 /*
 Функция, возвращающая случайное число с плавающей точкой из переданного диапазона включительно. Будет использоваться для генерации временных географических координат в следующем задании. Пример использования функции:
@@ -107,4 +107,4 @@ function getRandomFloatNumber(minNumber, maxNumber, digits) {
   // return не пишу, по умолчанию функция вернет undefined
   return Number(randomFloatNumber.toFixed(digits));
 }
-console.log(getRandomFloatNumber(2.5, 4.8, 7));
+getRandomFloatNumber(2.5, 4.8, 7);
