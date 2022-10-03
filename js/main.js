@@ -8,8 +8,13 @@ function getRandomIntNum(minNum, maxNum) {
   let max = maxNum;
   // Если границы диапазона заданы в нисходящем порядке:
   if (minNum > maxNum) {
+<<<<<<< HEAD
     min = maxNum;
     max = minNum;
+=======
+    let min = maxNum;
+    let max = minNum;
+>>>>>>> 7695d26c17b22ecf12d781365fabf6bd2c344d4e
   }
   // Нахождение случайного числа с плавающей точкой из диапазона
   const randomNum = min + Math.random() * (max - min);
